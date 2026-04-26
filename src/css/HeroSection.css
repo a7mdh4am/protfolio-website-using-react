@@ -1,0 +1,36 @@
+.HeroSection {
+    background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2,
+    h4 {
+        color: #000;
+    }
+
+    h2 {
+        font-size: 9rem;
+        /* text-shadow: 1px 1px #516619, -2px -2px #516619, 4px 3px #516619; */
+    }
+
+    h4 {
+        font-size: 2rem;
+        /* text-shadow: .5px .5px #516619, -1px -1px #516619, 2px 1.5px #516619; */
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #85adf8;
+        border: 2px solid black;
+        /* border-radius: 50px; */
+    }
+}

@@ -1,0 +1,27 @@
+.portfolio-element {
+    position: relative;
+    background-color: #b9855d;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+
+
+    h4 {
+        position: absolute;
+        font-size: 1.5rem;
+        top: 10px;
+        left: 10px;
+    }
+
+    p {
+        position: absolute;
+        top: 2rem;
+        padding: 20px;
+    }
+
+    span {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}

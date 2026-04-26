@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #302f2f;
+
+    span {
+        padding-left: 7px;
+        font-size: 1.5rem;
+    }
+}

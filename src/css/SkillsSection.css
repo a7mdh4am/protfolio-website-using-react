@@ -1,0 +1,30 @@
+.SkillsSection {
+    background-color: #898989;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 0 0 40px 0;
+
+    .sec1 {
+        margin: 40px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec2 {
+        padding-top: 50px;
+        padding-right: 40px;
+        color: #3c3c3c;
+
+        h2 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}

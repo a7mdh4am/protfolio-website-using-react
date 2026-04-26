@@ -1,0 +1,47 @@
+.AboutSection {
+    padding: 20px 100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
+    background-color: #4a6b19;
+    color: #131e02;
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    div {
+        padding: 50px;
+
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #85adf8;
+            border: 2px solid black;
+        }
+
+        img {
+            display: inline;
+            width: 300px;
+            background-color: #fff;
+            /* #b0cbf9 */
+            /* #a0c5f7 */
+            /* #8bb8f6 */
+            /* #85adf8 */
+            /* #7da5f1 */
+            /* #7ba0f6 */
+            /* #749bf7 */
+            border: 3px solid black;
+            box-shadow:
+                -20px 15px 0 3px #b0cbf9,
+                -40px 30px 0 3px #a0c5f7,
+                -60px 45px 0 3px #8bb8f6,
+                -80px 60px 0 3px #85adf8;
+        }
+    }
+}

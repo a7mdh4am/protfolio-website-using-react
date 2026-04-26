@@ -1,0 +1,12 @@
+:root {
+  --bg-color: #ccc;
+  --text-color: #202020;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: unset;
+  font-family: "Mynerve", sans-serif;
+  /* letter-spacing: 2px; */
+}
